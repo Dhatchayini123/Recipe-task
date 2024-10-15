@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strawberry-Cake Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="recipe-card">
+        <h1>Strawberry-Cake</h1>
+        <img src="Strawberry-Cake.jpg"Chocolate Smoothie" class="recipe-image">
+
+        <div class="info">
+            <p><strong>Preparation Time:</strong> 10 minutes</p>
+            <p><strong>Serving Size:</strong> 2</p>
+        </div>
+
+        <button id="toggle-ingredients">Show Ingredients</button>
+        <ul id="ingredients-list" class="hidden">
+            <li>2 cups all-purpose flour</li>
+            <li>1 ½ cups granulated sugar</li>
+            <li>1 teaspoon baking powder</li>
+            <li>½ teaspoon baking soda</li>
+            <li>½ teaspoon salt</li>
+            <li>½ cup unsalted butter (softened)</li>
+            <li>1 cup buttermilk</li>
+            <li>2 large eggs</li>
+            <li>1 teaspoon vanilla extract</li>
+             <li>1 cup fresh strawberries (mashed or pureed)</li>
+            <li>½ cup strawberry jam or preserves</li>
+            <li>Whipped cream or frosting (optional)</li>
+
+        </ul>
+
+        <button id="toggle-steps">Show Steps</button>
+        <ol id="steps-list" class="hidden">
+            <li>Preheat oven to 350°F (175°C) and grease a cake pan.</li>
+            <li>Mix flour, baking powder, baking soda, and salt.</li>
+            <li>Cream butter and sugar, then add eggs and vanilla.</li>
+            <li>Alternate adding dry ingredients and buttermilk, then fold in strawberries.</li>
+            <li>Pour into pan and bake for 25-30 minutes.</li>
+            <li>Cool, top with strawberry jam, and serve.</li>
+        </ol>
+        
+
+        <div class="progress-bar">
+            <div id="progress"></div>
+        </div>
+
+        <button id="start-cooking">Start Cooking</button>
+        <button id="next-step" class="hidden">Next Step</button>
+
+        <div class="timer hidden">
+            <p>Time Remaining: <span id="time-remaining">10:00</span></p>
+        </div>
+        <br/><button id="print-recipe">Print Recipe</button>
+    </div>
+
+    
+</body>
+</html>
